@@ -129,14 +129,25 @@ body {
 
 .my-donation {
     display: flex;
-    width: 60%;
+    width: 90%;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    padding: 30px;
 
+}
+
+.my-donation img {
+    width: 600px;
+    border-radius: 40px;
 }
 
 
 
 
-/* .email {
+
+.email {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,4 +181,24 @@ body {
     border-radius: 5px;
     width: 50%;
 
-} */
+}
+
+.footer {
+    text-align: center;
+
+    background-color: black;
+
+}
+
+.footer h3 {
+    padding-top: 30px;
+    color: red;
+
+
+}
+
+.footer h6 {
+    color: white;
+    padding-bottom: 30px;
+
+}
