@@ -1,3 +1,173 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+.banner {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.font-first {
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+
+}
+
+.font-first h1 {
+    font-size: xx-large;
+}
+
+.font-first p {
+    font-size: medium;
+}
+
+.button {
+
+    text-decoration: none;
+    background-color: rgb(207, 34, 34);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+
+}
+
+.font-donate {
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.amount {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.tk {
+    background-color: rgba(236, 224, 205, 0.877);
+    padding: 25px 25px;
+    border: 5px;
+}
+
+#special {
+    background-color: rgba(196, 32, 32, 0.425);
+    padding: 25px 25px;
+    color: red;
+    border-radius: 5px;
+    border: 2px solid red;
+}
+
+.donate {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.donate-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.donate-container {
+    width: 50%;
+}
+
+.our-donate {
+    padding-top: 60px;
+}
+
+.donate-plan {
+    display: flex;
+
+    padding-top: 50px;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 30px;
+
+}
+
+.food-family {
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+
+}
+
+.shelter-family {
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+
+}
+
+.education {
+    padding: 10px;
+    background-color: rgb(235, 235, 178);
+    border-radius: 20px;
+
+}
+
+.my-donation {
+    display: flex;
+    width: 60%;
+
+}
+
+
+
+
+/* .email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 40vw;
+    background-color: rgba(240, 84, 84, 0.178);
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.subscribe-button {
+    height: 35px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+
+}
+
+.email-input {
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+
+} */
