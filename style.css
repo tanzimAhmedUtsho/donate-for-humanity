@@ -100,8 +100,8 @@ body {
 
     padding-top: 50px;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
     gap: 30px;
 
 }
@@ -129,21 +129,79 @@ body {
 
 .my-donation {
     display: flex;
-    width: 90%;
-    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
     margin-top: 20px;
     margin-bottom: 30px;
-    margin-left: 35px;
-    padding: 30px;
+    /* margin-left: 35px */
+    ;
+    padding: 0 10%;
 
 }
 
 .my-donation img {
-    width: 600px;
+    width: 100%;
     border-radius: 40px;
 }
 
+.donation-update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.donation-container {
+    width: 40%;
+    text-align: center;
+}
+
+
+.extra-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 2% 10%;
+    background-color: rgba(179, 211, 211, 0.411);
+
+}
+
+.extra-card {
+    border: 1px solid green;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+
+}
+
+.icone {
+    height: 50px;
+    width: 60px;
+}
+
+.chackbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+
+
+}
+
+.interested {
+
+    background-color: rgb(201, 162, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+}
 
 
 
@@ -200,5 +258,6 @@ body {
 .footer h6 {
     color: white;
     padding-bottom: 30px;
+    margin-bottom: 0;
 
 }
